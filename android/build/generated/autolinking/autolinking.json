@@ -1,26 +1,26 @@
 {
-  "root": "/Users/apple/mydrive/mac/mumbai/reactproject",
-  "reactNativePath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native",
+  "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp",
+  "reactNativePath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native",
   "reactNativeVersion": "0.79",
   "dependencies": {
     "@react-native-async-storage/async-storage": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-async-storage/async-storage",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-async-storage/async-storage",
       "name": "@react-native-async-storage/async-storage",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-async-storage/async-storage/RNCAsyncStorage.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-async-storage/async-storage/RNCAsyncStorage.podspec",
           "version": "2.1.2",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-async-storage/async-storage/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-async-storage/async-storage/android",
           "packageImportPath": "import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;",
           "packageInstance": "new AsyncStoragePackage()",
           "buildTypes": [],
           "libraryName": "rnasyncstorage",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -29,23 +29,23 @@
       }
     },
     "@react-native-community/geolocation": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/geolocation",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/geolocation",
       "name": "@react-native-community/geolocation",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/geolocation/react-native-geolocation.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/geolocation/react-native-geolocation.podspec",
           "version": "3.4.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/geolocation/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/geolocation/android",
           "packageImportPath": "import com.reactnativecommunity.geolocation.GeolocationPackage;",
           "packageInstance": "new GeolocationPackage()",
           "buildTypes": [],
           "libraryName": "RNCGeolocationSpec",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/geolocation/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/geolocation/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -54,22 +54,22 @@
       }
     },
     "@react-native-community/masked-view": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/masked-view",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/masked-view",
       "name": "@react-native-community/masked-view",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/masked-view/RNCMaskedView.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/masked-view/RNCMaskedView.podspec",
           "version": "0.1.11",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/masked-view/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/masked-view/android",
           "packageImportPath": "import org.reactnative.maskedview.RNCMaskedViewPackage;",
           "packageInstance": "new RNCMaskedViewPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/masked-view/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/masked-view/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -78,22 +78,22 @@
       }
     },
     "@react-native-community/netinfo": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/netinfo",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/netinfo",
       "name": "@react-native-community/netinfo",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/netinfo/react-native-netinfo.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/netinfo/react-native-netinfo.podspec",
           "version": "11.4.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/netinfo/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/netinfo/android",
           "packageImportPath": "import com.reactnativecommunity.netinfo.NetInfoPackage;",
           "packageInstance": "new NetInfoPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/netinfo/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/netinfo/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -102,17 +102,17 @@
       }
     },
     "@react-native-community/slider": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/slider",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/slider",
       "name": "@react-native-community/slider",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/slider/react-native-slider.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/slider/react-native-slider.podspec",
           "version": "4.5.7",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/slider/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/slider/android",
           "packageImportPath": "import com.reactnativecommunity.slider.ReactSliderPackage;",
           "packageInstance": "new ReactSliderPackage()",
           "buildTypes": [],
@@ -120,7 +120,7 @@
           "componentDescriptors": [
             "RNCSliderComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-community/slider/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/slider/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -129,22 +129,22 @@
       }
     },
     "@react-native-firebase/analytics": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-firebase/analytics",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-firebase/analytics",
       "name": "@react-native-firebase/analytics",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-firebase/analytics/RNFBAnalytics.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-firebase/analytics/RNFBAnalytics.podspec",
           "version": "22.2.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-firebase/analytics/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-firebase/analytics/android",
           "packageImportPath": "import io.invertase.firebase.analytics.ReactNativeFirebaseAnalyticsPackage;",
           "packageInstance": "new ReactNativeFirebaseAnalyticsPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-firebase/analytics/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-firebase/analytics/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -153,11 +153,11 @@
       }
     },
     "@react-native-firebase/app": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-firebase/app",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-firebase/app",
       "name": "@react-native-firebase/app",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-firebase/app/RNFBApp.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-firebase/app/RNFBApp.podspec",
           "version": "22.2.0",
           "configurations": [],
           "scriptPhases": [
@@ -172,12 +172,12 @@
           ]
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-firebase/app/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-firebase/app/android",
           "packageImportPath": "import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;",
           "packageInstance": "new ReactNativeFirebaseAppPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-firebase/app/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-firebase/app/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -186,22 +186,22 @@
       }
     },
     "@react-native-firebase/dynamic-links": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-firebase/dynamic-links",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-firebase/dynamic-links",
       "name": "@react-native-firebase/dynamic-links",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-firebase/dynamic-links/RNFBDynamicLinks.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-firebase/dynamic-links/RNFBDynamicLinks.podspec",
           "version": "22.2.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-firebase/dynamic-links/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-firebase/dynamic-links/android",
           "packageImportPath": "import io.invertase.firebase.dynamiclinks.ReactNativeFirebaseDynamicLinksPackage;",
           "packageInstance": "new ReactNativeFirebaseDynamicLinksPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/@react-native-firebase/dynamic-links/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-firebase/dynamic-links/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -210,17 +210,17 @@
       }
     },
     "react-native-gesture-handler": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-gesture-handler",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-gesture-handler",
       "name": "react-native-gesture-handler",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-gesture-handler/RNGestureHandler.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-gesture-handler/RNGestureHandler.podspec",
           "version": "2.25.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-gesture-handler/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-gesture-handler/android",
           "packageImportPath": "import com.swmansion.gesturehandler.RNGestureHandlerPackage;",
           "packageInstance": "new RNGestureHandlerPackage()",
           "buildTypes": [],
@@ -229,7 +229,7 @@
             "RNGestureHandlerButtonComponentDescriptor",
             "RNGestureHandlerRootViewComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -238,22 +238,22 @@
       }
     },
     "react-native-i18n": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-i18n",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-i18n",
       "name": "react-native-i18n",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-i18n/RNI18n.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-i18n/RNI18n.podspec",
           "version": "2.0.15",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-i18n/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-i18n/android",
           "packageImportPath": "import com.AlexanderZaytsev.RNI18n.RNI18nPackage;",
           "packageInstance": "new RNI18nPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-i18n/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-i18n/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -262,22 +262,22 @@
       }
     },
     "react-native-linear-gradient": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-linear-gradient",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-linear-gradient",
       "name": "react-native-linear-gradient",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-linear-gradient/BVLinearGradient.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-linear-gradient/BVLinearGradient.podspec",
           "version": "2.8.3",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-linear-gradient/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-linear-gradient/android",
           "packageImportPath": "import com.BV.LinearGradient.LinearGradientPackage;",
           "packageInstance": "new LinearGradientPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-linear-gradient/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-linear-gradient/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -286,22 +286,22 @@
       }
     },
     "react-native-network-info": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-network-info",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-network-info",
       "name": "react-native-network-info",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-network-info/react-native-network-info.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-network-info/react-native-network-info.podspec",
           "version": "5.2.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-network-info/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-network-info/android",
           "packageImportPath": "import com.pusherman.networkinfo.RNNetworkInfoPackage;",
           "packageInstance": "new RNNetworkInfoPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-network-info/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-network-info/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -310,17 +310,17 @@
       }
     },
     "react-native-push-notification": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-push-notification",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-push-notification",
       "name": "react-native-push-notification",
       "platforms": {
         "ios": null,
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-push-notification/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-push-notification/android",
           "packageImportPath": "import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;",
           "packageInstance": "new ReactNativePushNotificationPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-push-notification/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-push-notification/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -329,17 +329,17 @@
       }
     },
     "react-native-safe-area-context": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-safe-area-context",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-safe-area-context",
       "name": "react-native-safe-area-context",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
           "version": "5.4.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-safe-area-context/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-safe-area-context/android",
           "packageImportPath": "import com.th3rdwave.safeareacontext.SafeAreaContextPackage;",
           "packageInstance": "new SafeAreaContextPackage()",
           "buildTypes": [],
@@ -348,7 +348,7 @@
             "RNCSafeAreaProviderComponentDescriptor",
             "RNCSafeAreaViewComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -357,17 +357,17 @@
       }
     },
     "react-native-screens": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-screens",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-screens",
       "name": "react-native-screens",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-screens/RNScreens.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-screens/RNScreens.podspec",
           "version": "4.11.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-screens/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-screens/android",
           "packageImportPath": "import com.swmansion.rnscreens.RNScreensPackage;",
           "packageInstance": "new RNScreensPackage()",
           "buildTypes": [],
@@ -385,7 +385,7 @@
             "RNSScreenContentWrapperComponentDescriptor",
             "RNSModalScreenComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -394,22 +394,22 @@
       }
     },
     "react-native-splash-screen": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-splash-screen",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-splash-screen",
       "name": "react-native-splash-screen",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-splash-screen/react-native-splash-screen.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-splash-screen/react-native-splash-screen.podspec",
           "version": "3.3.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-splash-screen/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-splash-screen/android",
           "packageImportPath": "import org.devio.rn.splashscreen.SplashScreenReactPackage;",
           "packageInstance": "new SplashScreenReactPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-splash-screen/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-splash-screen/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -418,17 +418,17 @@
       }
     },
     "react-native-svg": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-svg",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-svg",
       "name": "react-native-svg",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-svg/RNSVG.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-svg/RNSVG.podspec",
           "version": "15.12.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-svg/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-svg/android",
           "packageImportPath": "import com.horcrux.svg.SvgPackage;",
           "packageInstance": "new SvgPackage()",
           "buildTypes": [],
@@ -464,7 +464,7 @@
             "RNSVGTSpanComponentDescriptor",
             "RNSVGUseComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -473,11 +473,11 @@
       }
     },
     "react-native-tracking-transparency": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-tracking-transparency",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-tracking-transparency",
       "name": "react-native-tracking-transparency",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-tracking-transparency/react-native-tracking-transparency.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-tracking-transparency/react-native-tracking-transparency.podspec",
           "version": "0.1.2",
           "configurations": [],
           "scriptPhases": []
@@ -486,23 +486,23 @@
       }
     },
     "react-native-vector-icons": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-vector-icons",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-vector-icons",
       "name": "react-native-vector-icons",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-vector-icons/RNVectorIcons.podspec",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-vector-icons/RNVectorIcons.podspec",
           "version": "10.2.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-vector-icons/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-vector-icons/android",
           "packageImportPath": "import com.oblador.vectoricons.VectorIconsPackage;",
           "packageInstance": "new VectorIconsPackage()",
           "buildTypes": [],
           "libraryName": "RNVectorIconsSpec",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -511,17 +511,17 @@
       }
     },
     "react-native-webview": {
-      "root": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-webview",
+      "root": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-webview",
       "name": "react-native-webview",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-webview/react-native-webview.podspec",
-          "version": "13.14.0",
+          "podspecPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-webview/react-native-webview.podspec",
+          "version": "13.14.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-webview/android",
+          "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-webview/android",
           "packageImportPath": "import com.reactnativecommunity.webview.RNCWebViewPackage;",
           "packageInstance": "new RNCWebViewPackage()",
           "buildTypes": [],
@@ -529,7 +529,7 @@
           "componentDescriptors": [
             "RNCWebViewComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/reactproject/node_modules/react-native-webview/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-webview/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -700,7 +700,7 @@
         {
           "name": "--path <path>",
           "description": "Path to the React Native project root.",
-          "default": "/Users/apple/mydrive/mac/mumbai/reactproject"
+          "default": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp"
         },
         {
           "name": "--platform <string>",
@@ -990,19 +990,19 @@
   "assets": [],
   "project": {
     "ios": {
-      "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/ios",
+      "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/ios",
       "xcodeProject": {
-        "name": "reactproject.xcodeproj",
+        "name": "rewardwaleapp.xcodeproj",
         "path": ".",
         "isWorkspace": false
       },
       "assets": []
     },
     "android": {
-      "sourceDir": "/Users/apple/mydrive/mac/mumbai/reactproject/android",
+      "sourceDir": "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android",
       "appName": "app",
-      "packageName": "com.reactproject",
-      "applicationId": "com.reactproject",
+      "packageName": "com.rewardwaleapp",
+      "applicationId": "com.rewardwaleapp",
       "mainActivity": ".MainActivity",
       "assets": []
     }

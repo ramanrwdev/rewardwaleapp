@@ -549,7 +549,7 @@ checked program was:
 ld: warning: search path '/AppleInternal/Library/BuildRoots/1c8f7852-1ca9-11f0-b28b-226177e5bb69/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.Internal.sdk/usr/local/lib' not found
 Undefined symbols for architecture x86_64:
   "_rb_opts_exception_p", referenced from:
-      _t in conftest-423613.o
+      _t in conftest-57e4bc.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -606,7 +606,7 @@ checked program was:
 ld: warning: search path '/AppleInternal/Library/BuildRoots/1c8f7852-1ca9-11f0-b28b-226177e5bb69/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.Internal.sdk/usr/local/lib' not found
 Undefined symbols for architecture x86_64:
   "_rb_category_warn", referenced from:
-      _t in conftest-b5efa7.o
+      _t in conftest-2af6b6.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:

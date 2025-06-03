@@ -1,5 +1,5 @@
-current directory: /Users/apple/mydrive/mac/mumbai/reactproject/vendor/bundle/ruby/2.6.0/gems/bigdecimal-3.2.1/ext/bigdecimal
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20250531-25704-193e3le.rb extconf.rb
+current directory: /Users/apple/mydrive/mac/mumbai/rewardwaleapp/vendor/bundle/ruby/2.6.0/gems/bigdecimal-3.2.1/ext/bigdecimal
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20250603-2303-1y7ikc7.rb extconf.rb
 checking for __builtin_clz()... yes
 checking for __builtin_clzl()... yes
 checking for __builtin_clzll()... yes
@@ -27,10 +27,10 @@ checking for rb_category_warn() in ruby.h... no
 checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... no
 creating Makefile
 
-current directory: /Users/apple/mydrive/mac/mumbai/reactproject/vendor/bundle/ruby/2.6.0/gems/bigdecimal-3.2.1/ext/bigdecimal
+current directory: /Users/apple/mydrive/mac/mumbai/rewardwaleapp/vendor/bundle/ruby/2.6.0/gems/bigdecimal-3.2.1/ext/bigdecimal
 make "DESTDIR=" clean
 
-current directory: /Users/apple/mydrive/mac/mumbai/reactproject/vendor/bundle/ruby/2.6.0/gems/bigdecimal-3.2.1/ext/bigdecimal
+current directory: /Users/apple/mydrive/mac/mumbai/rewardwaleapp/vendor/bundle/ruby/2.6.0/gems/bigdecimal-3.2.1/ext/bigdecimal
 make "DESTDIR="
 compiling bigdecimal.c
 bigdecimal.c:1268:39: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
@@ -650,6 +650,6 @@ compiling missing.c
 linking shared-object bigdecimal.bundle
 ld: warning: search path '/AppleInternal/Library/BuildRoots/1c8f7852-1ca9-11f0-b28b-226177e5bb69/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.Internal.sdk/usr/local/lib' not found
 
-current directory: /Users/apple/mydrive/mac/mumbai/reactproject/vendor/bundle/ruby/2.6.0/gems/bigdecimal-3.2.1/ext/bigdecimal
+current directory: /Users/apple/mydrive/mac/mumbai/rewardwaleapp/vendor/bundle/ruby/2.6.0/gems/bigdecimal-3.2.1/ext/bigdecimal
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20250531-25704-1j30xea
+/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20250603-2303-un2dbc
