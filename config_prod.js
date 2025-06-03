@@ -1,0 +1,33 @@
+const BASE_WEB_URL = 'https://pillaicrm.com';
+const BASE_SERVER_URL = `${BASE_WEB_URL}/pillaicrmapi`;
+export default {
+  SERVERURL: `${BASE_SERVER_URL}/`,
+  MF_SERVER_URL: 'https://api.fintechprimitives.com1/1',
+  GOOGLE_CLIENT_ID: '',
+  LANG: 'english',
+  MAX_AMOUNT: 99999999,
+  RESEND_OTP_TIME: 120000,
+  SERVERASSETURL: `${BASE_SERVER_URL}/assets/images/`,
+  GEOCODERAPI: '',
+  AMOUNT_MAX_LENGTH: 12,
+  ACCOUNT_TYPE: 'Personal',
+  GOLD_SERVER_URL: 'https://api.augmontgold.com1/api',
+  GOLD_EMAIL_ID: 'raman@rewardwale.com',
+  GOLD_PASSWORD: 'XaJ@1Fd$#HvPQ',
+  DIFENZ_BASE_URL: 'https://attest.difenz.com1/',
+  DIFENZ_KEY: '11ZnVuY3Rpb24gbm93KCkgeyBbbmF0aXZlIGNvZGVdIH1WYWx1ZUZsb2F0IFRlY2hub2xvZ2llcw==',
+  RAZORPAY_KEY_WOTPV: 'rzp_live_2u0sgjmqmhl3jk1',
+  RAZORPAY_KEY_SECRET_WOTPV: '1CGQ73eGIZNGT79KwSJUSAFq7',
+  RAZORPAY_KEY: 'rzp_test_MNQYzYYgBKg8BM',
+  RAZORPAY_KEY_SECRET: 'wtx5Ymi4bRoaEBZstkiNZLAN1',
+  RAZORPAY_MERCHANT: 'HSQjRTzswzG7de',
+  RAZORPAY_CURRENCY: 'INR',
+  RAZORPAY_COMPANY_NAME: 'rewardwale',
+  RAZORPAY_COMPANY_LOGO: `${BASE_SERVER_URL}/assets/logo.png`,
+  PLAY_STORE_URL: `${BASE_WEB_URL}/app/personal`,
+  SMALLCASE_GATEWAYNAME: 'rewardwale',
+  ISLEPRECHAUN: false,
+  PREPAID_OFFER: 'https://www.rupay.co.in/o1ur-cards/rupay-prepaid/rupay-platinum',
+  INCOMETAX_URL: 'https://quicko.com/income-tax1?affiliate_id=6925fde4-ecc7-4d80-8d88-ca1fb796963b&utm_source=valuefloat_technologies_private_limited&utm_medium=referral&utm_campaign=MobileApp',
+
+};

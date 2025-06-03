@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "224503916237",
+    "project_id": "reactproject-d047e",
+    "storage_bucket": "reactproject-d047e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224503916237:android:b4eca375af07e3c9ba6b84",
+        "android_client_info": {
+          "package_name": "com.reactproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFsmXpf42hvwXEjX795SHFqumrsYBIHJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
