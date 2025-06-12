@@ -12,7 +12,20 @@
           "package_name": "com.rewardwaleapp"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "923159388119-po9vmnnnvk36aesoni2nr48m5kii6k2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rewardwaleapp",
+            "certificate_hash": "e665946e7c9edfb0bab16d5b977c8af1b3143f71"
+          }
+        },
+        {
+          "client_id": "923159388119-5408s3up033ilh1b4r4kqkm06ngmfleh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDWx1RCp06CTeEpF39F76D7W8N6cabmsNY"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923159388119-5408s3up033ilh1b4r4kqkm06ngmfleh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

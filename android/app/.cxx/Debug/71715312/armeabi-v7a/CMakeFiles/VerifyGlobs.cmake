@@ -107,6 +107,31 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/armeabi-v7a/CMakeFiles/cmake.verify_globs")
 endif()
 
+# react_codegen_SRCS at /Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/*.cpp")
+set(OLD_GLOB
+  "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/RNGoogleSignInCGen-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/armeabi-v7a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/*.cpp")
+set(OLD_GLOB
+  "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/ComponentDescriptors.cpp"
+  "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/EventEmitters.cpp"
+  "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/Props.cpp"
+  "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/RNGoogleSignInCGenJSI-generated.cpp"
+  "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/ShadowNodes.cpp"
+  "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen/States.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/armeabi-v7a/CMakeFiles/cmake.verify_globs")
+endif()
+
 # react_codegen_SRCS at /Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/*.cpp")
 set(OLD_GLOB

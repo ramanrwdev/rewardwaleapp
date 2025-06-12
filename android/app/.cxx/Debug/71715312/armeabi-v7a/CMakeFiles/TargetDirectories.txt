@@ -10,6 +10,9 @@
 /Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/armeabi-v7a/RNCSlider_autolinked_build/CMakeFiles/react_codegen_RNCSlider.dir
 /Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/armeabi-v7a/RNCSlider_autolinked_build/CMakeFiles/edit_cache.dir
 /Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/armeabi-v7a/RNCSlider_autolinked_build/CMakeFiles/rebuild_cache.dir
+/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/armeabi-v7a/RNGoogleSignInCGen_autolinked_build/CMakeFiles/react_codegen_RNGoogleSignInCGen.dir
+/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/armeabi-v7a/RNGoogleSignInCGen_autolinked_build/CMakeFiles/edit_cache.dir
+/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/armeabi-v7a/RNGoogleSignInCGen_autolinked_build/CMakeFiles/rebuild_cache.dir
 /Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/armeabi-v7a/rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir
 /Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/armeabi-v7a/rngesturehandler_codegen_autolinked_build/CMakeFiles/edit_cache.dir
 /Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/armeabi-v7a/rngesturehandler_codegen_autolinked_build/CMakeFiles/rebuild_cache.dir

@@ -16,7 +16,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -42,7 +43,7 @@
 					"source" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -76,6 +77,21 @@
 					]
 				},
 				{
+					"build" : "RNGoogleSignInCGen_autolinked_build",
+					"jsonFile" : "directory-RNGoogleSignInCGen_autolinked_build-Debug-cbe1c4aa102a79359c2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
 					"build" : "rngesturehandler_codegen_autolinked_build",
 					"jsonFile" : "directory-rngesturehandler_codegen_autolinked_build-Debug-f7680628febd76831328.json",
 					"minimumCMakeVersion" : 
@@ -87,7 +103,7 @@
 					"source" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -102,7 +118,7 @@
 					"source" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-safe-area-context/android/src/main/jni",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -117,7 +133,7 @@
 					"source" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-screens/android/src/main/jni",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -132,7 +148,7 @@
 					"source" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-svg/android/src/main/jni",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -147,7 +163,7 @@
 					"source" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -181,7 +197,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"name" : "appmodules",
 					"targetIndexes" : 
@@ -195,7 +212,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					]
 				}
 			],
@@ -204,7 +222,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appmodules::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appmodules-Debug-9abf9b42b5255e4fa8ec.json",
+					"jsonFile" : "target-appmodules-Debug-8c90e36b16b005c01bf1.json",
 					"name" : "appmodules",
 					"projectIndex" : 0
 				},
@@ -218,19 +236,26 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "react_codegen_RNCSlider::@4898bc4726ecf1751b6a",
-					"jsonFile" : "target-react_codegen_RNCSlider-Debug-743171166e9e6d6e7422.json",
+					"jsonFile" : "target-react_codegen_RNCSlider-Debug-575b7f3144b03c02677b.json",
 					"name" : "react_codegen_RNCSlider",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "react_codegen_RNCWebViewSpec::@eb48929f9f7453740a6c",
 					"jsonFile" : "target-react_codegen_RNCWebViewSpec-Debug-baf8fb3d5d7aace95030.json",
 					"name" : "react_codegen_RNCWebViewSpec",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 4,
+					"id" : "react_codegen_RNGoogleSignInCGen::@337b7b353bd94a4215c0",
+					"jsonFile" : "target-react_codegen_RNGoogleSignInCGen-Debug-34cc109b63c1b8ca13d6.json",
+					"name" : "react_codegen_RNGoogleSignInCGen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
 					"id" : "react_codegen_RNVectorIconsSpec::@479809fae146501fd34d",
 					"jsonFile" : "target-react_codegen_RNVectorIconsSpec-Debug-247b45efe84499d49b0f.json",
 					"name" : "react_codegen_RNVectorIconsSpec",
@@ -244,30 +269,30 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 4,
+					"directoryIndex" : 5,
 					"id" : "react_codegen_rngesturehandler_codegen::@39f233abcd2c728bc6ec",
 					"jsonFile" : "target-react_codegen_rngesturehandler_codegen-Debug-f864c12821a36e043529.json",
 					"name" : "react_codegen_rngesturehandler_codegen",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "react_codegen_rnscreens::@25bcbd507e98d3a854ad",
-					"jsonFile" : "target-react_codegen_rnscreens-Debug-60a6635d11ac4901474a.json",
+					"jsonFile" : "target-react_codegen_rnscreens-Debug-580386772e7e209efa7d.json",
 					"name" : "react_codegen_rnscreens",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 7,
+					"directoryIndex" : 8,
 					"id" : "react_codegen_rnsvg::@4f40eb209d0c0b4a3b65",
-					"jsonFile" : "target-react_codegen_rnsvg-Debug-34ebdf2480dd3442c36e.json",
+					"jsonFile" : "target-react_codegen_rnsvg-Debug-6796f47224352d399fe5.json",
 					"name" : "react_codegen_rnsvg",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 5,
+					"directoryIndex" : 6,
 					"id" : "react_codegen_safeareacontext::@7984cd80db47aa7b952a",
-					"jsonFile" : "target-react_codegen_safeareacontext-Debug-dc9da1b5dee3bc40a161.json",
+					"jsonFile" : "target-react_codegen_safeareacontext-Debug-d82e6c6469549da09fec.json",
 					"name" : "react_codegen_safeareacontext",
 					"projectIndex" : 0
 				}
@@ -277,7 +302,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/x86_64",
+		"build" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/x86",
 		"source" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup"
 	},
 	"version" : 

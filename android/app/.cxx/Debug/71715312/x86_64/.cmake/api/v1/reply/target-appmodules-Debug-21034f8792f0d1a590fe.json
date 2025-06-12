@@ -243,6 +243,14 @@
 				},
 				{
 					"backtrace" : 4,
+					"path" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/react/renderer/components/RNGoogleSignInCGen"
+				},
+				{
+					"backtrace" : 4,
 					"path" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/."
 				},
 				{
@@ -354,6 +362,10 @@
 		{
 			"backtrace" : 4,
 			"id" : "react_codegen_RNCSlider::@4898bc4726ecf1751b6a"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "react_codegen_RNGoogleSignInCGen::@337b7b353bd94a4215c0"
 		},
 		{
 			"backtrace" : 4,
@@ -490,7 +502,14 @@
 				33,
 				34,
 				35,
-				36
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43
 			]
 		}
 	],
@@ -590,6 +609,48 @@
 			"backtrace" : 4,
 			"isGenerated" : true,
 			"path" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/x86_64/RNCGeolocationSpec_autolinked_build/CMakeFiles/react_codegen_RNCGeolocationSpec.dir/react/renderer/components/RNCGeolocationSpec/States.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/x86_64/RNGoogleSignInCGen_autolinked_build/CMakeFiles/react_codegen_RNGoogleSignInCGen.dir/RNGoogleSignInCGen-generated.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/x86_64/RNGoogleSignInCGen_autolinked_build/CMakeFiles/react_codegen_RNGoogleSignInCGen.dir/react/renderer/components/RNGoogleSignInCGen/ComponentDescriptors.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/x86_64/RNGoogleSignInCGen_autolinked_build/CMakeFiles/react_codegen_RNGoogleSignInCGen.dir/react/renderer/components/RNGoogleSignInCGen/EventEmitters.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/x86_64/RNGoogleSignInCGen_autolinked_build/CMakeFiles/react_codegen_RNGoogleSignInCGen.dir/react/renderer/components/RNGoogleSignInCGen/Props.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/x86_64/RNGoogleSignInCGen_autolinked_build/CMakeFiles/react_codegen_RNGoogleSignInCGen.dir/react/renderer/components/RNGoogleSignInCGen/RNGoogleSignInCGenJSI-generated.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/x86_64/RNGoogleSignInCGen_autolinked_build/CMakeFiles/react_codegen_RNGoogleSignInCGen.dir/react/renderer/components/RNGoogleSignInCGen/ShadowNodes.cpp.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/android/app/.cxx/Debug/71715312/x86_64/RNGoogleSignInCGen_autolinked_build/CMakeFiles/react_codegen_RNGoogleSignInCGen.dir/react/renderer/components/RNGoogleSignInCGen/States.cpp.o",
 			"sourceGroupIndex" : 1
 		},
 		{

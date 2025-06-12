@@ -3,6 +3,7 @@
     "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt",
     "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/geolocation/android/build/generated/source/codegen/jni/CMakeLists.txt",
     "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-community/slider/android/src/main/jni/CMakeLists.txt",
+    "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/CMakeLists.txt",
     "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
     "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
     "/Users/apple/mydrive/mac/mumbai/rewardwaleapp/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
@@ -94,6 +95,11 @@
         "/private/var/root/.gradle/caches/8.13/transforms/83ad20037e643bbd8d537f3acd148fdd/transformed/jetified-react-android-0.79.2-debug/prefab/modules/jsi/libs/android.x86_64/libjsi.so",
         "/private/var/root/.gradle/caches/8.13/transforms/0b061f55bf713daab6875ce1f4aa3a92/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86_64/libfbjni.so"
       ]
+    },
+    "react_codegen_RNGoogleSignInCGen::@337b7b353bd94a4215c0": {
+      "artifactName": "react_codegen_RNGoogleSignInCGen",
+      "abi": "x86_64",
+      "runtimeFiles": []
     },
     "react_codegen_rnasyncstorage::@1596841e19ec5b9eeffe": {
       "artifactName": "react_codegen_rnasyncstorage",
