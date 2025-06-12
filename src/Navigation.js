@@ -4,7 +4,9 @@ import {createStackNavigator,TransitionPresets } from '@react-navigation/stack';
 //import { createStackNavigator } from 'react-navigation-stack';
 import DropdownAlert from 'react-native-dropdownalert';
 import Slider from './pages/Slider';
-//import Register from './pages/Register';
+import Register from './pages/Register';
+import RegisterInfo from './pages/RegisterInfo';
+
 import Login from './pages/Login';
 import Welcome from './pages/Welcome';
 // import LoginViaOtp from './pages/LoginViaOtp';
@@ -45,6 +47,16 @@ export function AuthStackNavigator() {
         component={Login}
         options={{ headerShown: false }}
       />
+      <AuthStack.Screen
+        name="Register"
+        component={Register}
+        options={{ headerShown: false }}
+      />
+       <AuthStack.Screen
+        name="RegisterInfo"
+        component={RegisterInfo}
+        options={{ headerShown: false }}
+      />
 {/*      
        <AuthStack.Screen
         name="LoginViaOtp"
@@ -52,11 +64,6 @@ export function AuthStackNavigator() {
         options={{ headerShown: false }}
       />
       
-      <AuthStack.Screen
-        name="Register"
-        component={Register}
-        options={{ headerShown: false }}
-      />
 
       <AuthStack.Screen
         name="VerifyOTP"

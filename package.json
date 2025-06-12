@@ -18,6 +18,7 @@
     "@react-native-firebase/analytics": "^22.2.0",
     "@react-native-firebase/app": "^22.2.0",
     "@react-native-firebase/dynamic-links": "^22.2.0",
+    "@react-native-google-signin/google-signin": "^14.0.1",
     "@react-navigation/drawer": "^7.4.1",
     "@react-navigation/native": "^7.1.10",
     "@react-navigation/stack": "^7.3.3",

@@ -23,6 +23,7 @@ const images = {
   close: require('./close.png'),
   file_icon: require('./file_icon.png'),
   Back_icon:require('./Back_icon.png'),
+  sign_with_google:require('./sign_with_google.png'),
  
   
 };

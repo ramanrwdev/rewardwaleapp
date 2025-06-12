@@ -929,8 +929,21 @@ const GlobalStyles = StyleSheet.create({
     letterSpacing: 0.3,
   },
   texttitle: {
-    fontSize: normalizeHeight(12),
-    lineHeight: normalizeHeight(16),
+    fontSize: normalizeHeight(14),
+    lineHeight: normalizeHeight(17),
+    fontFamily: Global.font.font_family_fr,
+    letterSpacing: 0.3,
+  },
+  texttitledonthave: {
+    fontSize: normalizeHeight(15),
+    lineHeight: normalizeHeight(18),
+    fontFamily: Global.font.font_family_fr,
+    letterSpacing: 0.3,
+    textDecorationLine: 'underline',
+  },
+  texttitlecontinue: {
+    fontSize: normalizeHeight(14),
+    lineHeight: normalizeHeight(17),
     fontFamily: Global.font.font_family_fr,
     letterSpacing: 0.3,
   },
@@ -1084,7 +1097,7 @@ const GlobalStyles = StyleSheet.create({
   enablefilledbutton5: {
     backgroundColor: Global.color.black,
    width: normalizeWidth(300),
-    height: normalizeHeight(58),
+    height: normalizeHeight(48),
    // marginHorizontal:normalizeWidth(2),
     borderRadius: 10,
     alignItems: 'center',

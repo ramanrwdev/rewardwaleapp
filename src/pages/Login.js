@@ -8,7 +8,7 @@ import {
   BackHandler,
   TextInput,
   KeyboardAvoidingView,
-  Platform,Image
+  Platform,Image,ActivityIndicator
 } from 'react-native';
 import GlobalStyles from '../styles/GlobalStyles';
 import Global from '../global';
@@ -29,6 +29,8 @@ import I18n from 'react-native-i18n';
 import { testProps } from '../utills/commonFunctions';
 import LoginStyles from '../styles/LoginStyles';
 import { fontWeight } from './themes';
+import { GoogleSignin, GoogleSigninButton, statusCodes } from '@react-native-google-signin/google-signin';
+
 let device;
 
 
@@ -44,10 +46,14 @@ export default  Login = (props) => {
   const [email, setEmail] = useState('');
   const [passwordshow, setPasswordShow] = useState(true)
   const [rememberme, setRememberme] = useState(false)
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
   
 
 
   useEffect(() => {
+    configureGoogleSignIn();
     // AppEventsLogger.logPurchase(25, "RS", { param: "HELLO" });
     const handleBackButtonClick = () => {
       props.navigation.goBack();
@@ -61,6 +67,52 @@ export default  Login = (props) => {
     // });
     return unsubscribeSiFocus;
   }, [])
+
+
+  const configureGoogleSignIn = () => {
+    GoogleSignin.configure({
+        webClientId: '923159388119-5408s3up033ilh1b4r4kqkm06ngmfleh.apps.googleusercontent.com',
+        offlineAccess: true,
+        forceCodeForRefreshToken: true,
+        androidClientId: '923159388119-po9vmnnnvk36aesoni2nr48m5kii6k2i.apps.googleusercontent.com',
+        iosClientId: 'YOUR_IOS_CLIENT_ID',
+    });
+};
+
+
+const signIn = async () => {
+  setLoading(true);
+  setError(null);
+  try {
+      await GoogleSignin.hasPlayServices({ showPlayServicesUpdateDialog: true });
+      const userInfo = await GoogleSignin.signIn();
+      setUser(userInfo);
+  } catch (error) {
+      setError(error.message);
+      if (error.code === statusCodes.SIGN_IN_CANCELLED) {
+          console.log('Sign in cancelled');
+      } else if (error.code === statusCodes.IN_PROGRESS) {
+          console.log('Sign in in progress');
+      } else if (error.code === statusCodes.PLAY_SERVICES_NOT_AVAILABLE) {
+          console.log('Play services not available');
+      } else {
+          console.error('Sign-in error:', error);
+      }
+  } finally {
+      setLoading(false);
+  }
+};
+
+
+const signOut = async () => {
+  try {
+      await GoogleSignin.signOut();
+      setUser(null);
+  } catch (error) {
+      console.error('Sign out error:', error);
+  }
+};
+
 
   const handleEmailid = (text) => {
   setEmail(text)
@@ -207,7 +259,7 @@ export default  Login = (props) => {
         showsVerticalScrollIndicator={false}
         style={GlobalStyles.innerBlock}>
        
-<View style={{marginTop: normalizeHeight(15),alignItems:'center',justifyContent:'center'}}>
+<View style={{marginTop: normalizeHeight(50),alignItems:'center',justifyContent:'center'}}>
 {/* <Text
               style={[GlobalStyles.logotitle, { color: "#FAFAFA",textAlign:'center',justifyContent:'center',marginTop:normalizeHeight(40) }]}
             >
@@ -218,7 +270,7 @@ export default  Login = (props) => {
               resizeMode='contain'
               style={{
                 width: normalizeWidth(250),
-                height: normalizeHeight(180),
+                height: normalizeHeight(110),
                 
               }}
             />
@@ -226,7 +278,7 @@ export default  Login = (props) => {
           
  
       
-        <View style={{backgroundColor:Global.color.white,marginTop: normalizeHeight(5),alignItems:'center',justifyContent:'center',borderRadius:12}}> 
+        <View style={{backgroundColor:Global.color.white,marginTop: normalizeHeight(5),alignItems:'center',justifyContent:'center'}}> 
 
 
 <View style={{marginBottom:normalizeHeight(20)}}>
@@ -281,7 +333,7 @@ export default  Login = (props) => {
 
   <TouchableOpacity onPress={() => alert('coming soon...')} style={{flex:0.9,flexDirection:'row',alignItems:'flex-start'}}>
   <Text
-              style={[GlobalStyles.texttitle, { color: Global.color.black,marginTop:normalizeHeight(10),fontWeight:'bold' }]}
+              style={[GlobalStyles.texttitle, {fontFamily:Global.font.semiBold, color: Global.color.black,marginTop:normalizeHeight(10),fontWeight:'600' }]}
             >
              {'Forgot Password ?'}
             </Text>
@@ -289,7 +341,10 @@ export default  Login = (props) => {
 
           </View>
 
-<View style={{alignItems:'center',justifyContent:'center',marginTop:normalizeHeight(35),marginBottom:normalizeHeight(30)}}>
+
+          
+
+<View style={{alignItems:'center',justifyContent:'center',marginTop:normalizeHeight(35),marginBottom:normalizeHeight(25)}}>
         <CmpButton
         name={'Login'}
         hide
@@ -299,6 +354,70 @@ export default  Login = (props) => {
       />
       
           </View>
+
+
+          <View style={{flexDirection:'row',alignItems:'center',justifyContent:'center',marginHorizontal:normalizeWidth(5)}}>
+<View style={{flex:0.3, width: '92%',
+    borderWidth: 0.5,
+    borderColor: Global.color.darkgreyclr,justifyContent:'center',alignItems:'center'}}>
+</View>
+  <TouchableOpacity onPress={() => alert('coming soon...')} style={{flex:0.4,alignItems:'center',justifyContent:'center'}}>
+  <Text
+              style={[GlobalStyles.texttitlecontinue, { color: Global.color.darkgreyclr,fontWeight:'bold' }]}
+            >
+             {'OR CONTINUE WITH'}
+            </Text>
+  </TouchableOpacity>  
+  <View style={{flex:0.3, width: '92%',
+    borderWidth: 0.5,
+    borderColor: Global.color.darkgreyclr,justifyContent:'center',alignItems:'center'}}>
+  </View>
+          </View>
+
+
+          <View style={{marginTop: normalizeHeight(30),alignItems:'center',justifyContent:'center'}}>
+
+{/* <Image
+              source={images.sign_with_google}
+              resizeMode='contain'
+              style={{
+                width: normalizeWidth(250),
+                height: normalizeHeight(50),
+                
+              }}
+            /> */}
+
+
+            {loading ? (
+                <ActivityIndicator size="large" />
+            ) : user ? (
+                <>
+                    <Text>Welcome, {user.user.name}</Text>
+                    <Button title="Sign Out" onPress={signOut} />
+                </>
+            ) : (
+                <GoogleSigninButton
+                    style={{ width: 200, height: 50 }}
+                    size={GoogleSigninButton.Size.Wide}
+                    color={GoogleSigninButton.Color.Light}
+                    onPress={signIn}
+                />
+            )}
+            {error && <Text style={{ color: 'red' }}>{error}</Text>}
+     
+</View>
+
+
+      
+  <TouchableOpacity onPress={() =>  props.navigation.navigate('Register')} style={{alignItems:'center',justifyContent:'center',marginTop:normalizeHeight(30)}}>
+  <Text
+              style={[GlobalStyles.texttitledonthave, { color: Global.color.black,marginTop:normalizeHeight(10),fontWeight:'bold' }]}
+            >
+             {'Dont have an account ?'}
+            </Text>
+  </TouchableOpacity>  
+
+      
 
       
         </View>
